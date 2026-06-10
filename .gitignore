@@ -1,0 +1,5 @@
+*.zip
+moneymbti-deploy-*/
+UPLOAD_THIS_*/
+.DS_Store
+Thumbs.db

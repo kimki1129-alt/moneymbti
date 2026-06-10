@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="MoneyMBTI">
+  <rect width="1200" height="630" fill="#F2F4F8"/>
+  <rect x="70" y="70" width="1060" height="490" rx="42" fill="#FFFFFF" stroke="#E2E6EF"/>
+  <rect x="110" y="116" width="86" height="86" rx="22" fill="#1D5FA5"/>
+  <circle cx="178" cy="184" r="28" fill="#F9CB42"/>
+  <text x="230" y="162" fill="#1A1D23" font-family="Arial, sans-serif" font-size="42" font-weight="700">MoneyMBTI</text>
+  <text x="110" y="310" fill="#1A1D23" font-family="Arial, sans-serif" font-size="72" font-weight="800">나와 돈의 관계를</text>
+  <text x="110" y="398" fill="#1D5FA5" font-family="Arial, sans-serif" font-size="72" font-weight="800">알아보는 테스트</text>
+  <text x="112" y="470" fill="#5C6478" font-family="Arial, sans-serif" font-size="30">소비습관 · 투자성향 · 자동차 소비 · 돈 심리</text>
+</svg>

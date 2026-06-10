@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="MoneyMBTI result image placeholder">
+  <rect width="160" height="160" rx="24" fill="#ebf3ff"/>
+  <rect x="18" y="18" width="124" height="124" rx="20" fill="#ffffff" stroke="#c8cedb" stroke-width="2"/>
+  <circle cx="80" cy="66" r="28" fill="#1a56db" opacity="0.16"/>
+  <path d="M48 113c7-20 20-30 32-30s25 10 32 30" fill="none" stroke="#1a56db" stroke-width="8" stroke-linecap="round"/>
+  <text x="80" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5c6478">160 x 160</text>
+</svg>
