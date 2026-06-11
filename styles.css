@@ -1087,6 +1087,20 @@ main {
 
 .compact-topic-list a {
   grid-template-columns: minmax(220px, 0.42fr) minmax(0, 1fr);
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.compact-topic-list a::after {
+  content: "글 읽기 →";
+  grid-column: 2;
+  justify-self: start;
+  margin-top: -6px;
+  color: var(--color-primary);
+  font-size: 14px;
+  font-weight: 800;
+  border-bottom: 2px solid currentColor;
 }
 
 .readable-section {
