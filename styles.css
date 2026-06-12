@@ -3397,3 +3397,167 @@ main {
     min-height: auto;
   }
 }
+
+/* Poomang-style featured test hero */
+.feature-test-hero {
+  margin: 12px 0 18px;
+}
+
+.feature-test-card {
+  position: relative;
+  min-height: 360px;
+  display: block;
+  overflow: hidden;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #dfe6ef;
+  border-radius: 24px;
+  background: #111827;
+  box-shadow: 0 20px 42px rgba(15,23,42,.12);
+}
+
+.feature-test-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.01);
+}
+
+.feature-test-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(5,13,29,.88) 0%, rgba(5,13,29,.70) 34%, rgba(5,13,29,.20) 66%, rgba(5,13,29,.05) 100%),
+    linear-gradient(0deg, rgba(5,13,29,.35), rgba(5,13,29,.02));
+}
+
+.feature-test-copy {
+  position: relative;
+  z-index: 1;
+  width: min(560px, 68%);
+  min-height: 360px;
+  padding: 40px 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.feature-test-copy span {
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(249,203,66,.94);
+  color: #111827;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.feature-test-copy h1 {
+  margin: 0;
+  max-width: 560px;
+  color: #ffffff;
+  font-size: clamp(34px, 5vw, 58px);
+  line-height: 1.08;
+  letter-spacing: 0;
+  word-break: keep-all;
+}
+
+.feature-test-copy p {
+  max-width: 520px;
+  margin: 16px 0 22px;
+  color: rgba(255,255,255,.84);
+  font-size: 17px;
+  line-height: 1.72;
+  word-break: keep-all;
+}
+
+.feature-test-copy b {
+  min-height: 48px;
+  padding: 0 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #111827;
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,.28);
+  font-size: 15px;
+  font-weight: 900;
+  box-shadow: 0 12px 28px rgba(0,0,0,.22);
+}
+
+.feature-test-card:hover img {
+  transform: scale(1.04);
+  transition: transform .24s ease;
+}
+
+.feature-test-card:hover .feature-test-copy b {
+  background: var(--color-primary);
+}
+
+@media (max-width: 760px) {
+  .feature-test-card {
+    min-height: 430px;
+    border-radius: 0;
+    margin-left: -16px;
+    margin-right: -16px;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .feature-test-card::after {
+    background:
+      linear-gradient(180deg, rgba(5,13,29,.18) 0%, rgba(5,13,29,.78) 58%, rgba(5,13,29,.92) 100%);
+  }
+
+  .feature-test-copy {
+    width: 100%;
+    min-height: 430px;
+    padding: 210px 20px 28px;
+    justify-content: flex-end;
+  }
+
+  .feature-test-copy h1 {
+    font-size: 36px;
+  }
+
+  .feature-test-copy p {
+    margin: 12px 0 18px;
+    font-size: 15px;
+  }
+}
+
+/* Featured hero meme text */
+.feature-meme-line {
+  display: block;
+  margin: 0 0 12px;
+  color: #f9cb42;
+  font-size: clamp(34px, 5vw, 64px);
+  font-weight: 900;
+  line-height: 1.02;
+  letter-spacing: 0;
+  word-break: keep-all;
+  text-shadow:
+    0 3px 0 rgba(17,24,39,.92),
+    0 8px 22px rgba(0,0,0,.32);
+}
+
+.feature-test-copy h1 {
+  font-size: clamp(24px, 3.2vw, 42px);
+}
+
+@media (max-width: 760px) {
+  .feature-meme-line {
+    font-size: 40px;
+    line-height: 1.06;
+  }
+
+  .feature-test-copy h1 {
+    font-size: 25px;
+  }
+}
