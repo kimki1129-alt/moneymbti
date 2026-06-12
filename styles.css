@@ -3012,3 +3012,53 @@ main {
   }
 }
 
+/* Expanded money test cards */
+.tm-section-head p:not(.eyebrow) {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.tm-test-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.tm-test-card {
+  min-height: 236px;
+  padding: 18px;
+}
+
+.tm-test-card strong {
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.tm-test-card p {
+  font-size: 14px;
+  line-height: 1.62;
+}
+
+.tm-icon-card::before { content: "C"; }
+.tm-icon-leak::before { content: "₩"; }
+.tm-icon-car::before { content: "A"; }
+.tm-icon-save::before { content: "S"; }
+.tm-icon-record::before { content: "3"; }
+.tm-icon-check::before { content: "✓"; }
+
+@media (max-width: 980px) {
+  .tm-test-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .tm-test-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tm-test-card {
+    min-height: auto;
+  }
+}
